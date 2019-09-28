@@ -173,13 +173,15 @@ body{
     font-size: 20px;
 }
 
+// Responsivnes web
 @media screen and (max-width: 1024px){
 
-    body {
-        background: rgb(163,163,163);
-background: linear-gradient(90deg, rgba(163,163,163,1) 0%, rgba(78,153,204,0.9570203081232493) 100%);
-    }
-   .container{
+ body {
+    background: rgb(163,163,163);
+    background: linear-gradient(90deg, rgba(163,163,163,1) 0%, rgba(78,153,204,0.9570203081232493) 100%);
+ }
+    
+.container{
     padding:0px;
     width:340px;
     margin:0 auto;
